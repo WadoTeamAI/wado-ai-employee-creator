@@ -62,13 +62,14 @@ footer.site p{margin:4px 0}
 </style></head><body>
 <header class='site'><div class='wrap'><span class='stamp'>WADO AI EMPLOYEE</span><h1 style=font-size:20px>AI社員クリエイター｜LINE登録特典</h1></div></header>
 <main class='wrap'><article>
-<div class='hero'><div><img src='./img/N69.png' alt='AI社員クリエイター' style='border-radius:12px'></div><div><div class='tags'><span class='tag k'>新規</span><span class='tag'>商品作成AI</span><span class='tag'>Skill</span><span class='tag'>LINE登録特典</span></div><h1>AI社員クリエイター</h1><p class='lead'>毎回説明し直している仕事を聞き取り、試して比べて直すところまで進めて、Claude の Skill（AI社員1人）に仕上げる</p><a class='btn dl' href='./files/ai-employee-creator.zip' download><span class='dl-main'>⬇ タップしてダウンロード</span><span class='dl-sub'>タップするとファイル（ai-employee-creator.zip）が保存されます</span></a></div></div>
+<div class='hero'><div><img src='./img/N69.png' alt='AI社員クリエイター' style='border-radius:12px'></div><div><div class='tags'><span class='tag k'>新規</span><span class='tag'>商品作成AI</span><span class='tag'>Skill</span><span class='tag'>LINE登録特典</span></div><h1>AI社員クリエイター</h1><p class='lead'>毎回説明し直している仕事を聞き取り、試して比べて直すところまで進めて、Claude Code・Codex などで使える Skill（AI社員1人）に仕上げる</p><a class='btn dl' href='./files/ai-employee-creator.zip' download><span class='dl-main'>⬇ タップしてダウンロード</span><span class='dl-sub'>タップするとファイル（ai-employee-creator.zip）が保存されます</span></a></div></div>
 <div class='toc'><b>目次</b><div class="toc">
 <ul>
 <li><a href="#_1">この特典で手に入るもの</a></li>
 <li><a href="#1">最初のゴール（今日やる1つ）</a></li>
 <li><a href="#_2">入れ方</a><ul>
 <li><a href="#claude-code">Claude Code を使っている場合</a></li>
+<li><a href="#codex">Codex を使っている場合</a></li>
 <li><a href="#claudeai">claude.ai（ブラウザ・アプリ）を使っている場合</a></li>
 <li><a href="#1_1">1分の動作確認</a></li>
 </ul>
@@ -88,7 +89,7 @@ footer.site p{margin:4px 0}
 </div>
 <div class='body'><h1 id="ai">AI社員クリエイター</h1>
 <blockquote>
-<p>毎回チャットで説明し直している仕事を聞き取り、Claude の Skill（AI社員1人）に仕上げる。作って終わりにせず、試して比べて、直して、呼ばれ方まで整える。</p>
+<p>毎回チャットで説明し直している仕事を聞き取り、Claude Code・Codex などのAIエージェントで使える Skill（AI社員1人）に仕上げる。作って終わりにせず、試して比べて、直して、呼ばれ方まで整える。</p>
 </blockquote>
 <h2 id="_1">この特典で手に入るもの</h2>
 <p>AIに仕事を頼むたびに、同じ前提・同じ注意・同じ直しを毎回説明していませんか。
@@ -97,6 +98,7 @@ footer.site p{margin:4px 0}
 <p>AI社員クリエイターに、任せたい仕事を1つ伝えると、質問しながら次の4つをそろえてくれます。</p>
 <p><img alt="AI社員1人＝4つの中身" src="./img/N69_fig1_four.png" /></p>
 <p><em>AI社員1人は「判断の基準」「型・前提」「手順」「完成見本」の4つでできています。この特典は、この4つを聞き取りで埋めていきます。</em></p>
+<p>Skill は、AIエージェントが共通で読める形（SKILL.md と参考ファイルのフォルダ）です。AI社員クリエイターは Claude Code・Codex・claude.ai で読み込めることを確かめています。</p>
 <div class='tbl'><table>
 <thead>
 <tr>
@@ -140,7 +142,7 @@ footer.site p{margin:4px 0}
 </ul>
 <p>すでにAI社員（Skill）を作ったことがある人は、「作ったスキルを直して」から始めても大丈夫です。直す前の版を残したうえで、困っている所だけを直し、前の版と比べて見せてくれます。</p>
 <h2 id="_2">入れ方</h2>
-<p>迷うのは置き場所だけです。使っている場所に合わせて、下のどちらか1つだけ読んでください。</p>
+<p>迷うのは置き場所だけです。使っている場所に合わせて、下の3つのうち1つだけ読んでください。</p>
 <p>上のボタンから zip をダウンロードします。中身は <code>ai-employee-creator</code> というフォルダ1つです。</p>
 <h3 id="claude-code">Claude Code を使っている場合</h3>
 <ol>
@@ -152,6 +154,16 @@ footer.site p{margin:4px 0}
 <li>Claude Code を開き直して、<code>/ai-employee-creator</code> と打って候補に出れば準備完了です</li>
 </ol>
 <p>Claude Code では、同梱の補助スクリプト4本（検査・zip 作り・結果の見比べページ作り・呼ばれ方の測定）を AI社員クリエイターが自分で使います。必要なのは Python 3.9 以上だけで、追加のインストールはいりません。</p>
+<h3 id="codex">Codex を使っている場合</h3>
+<ol>
+<li>ダウンロードした zip を、自分のパソコンの <code>~/.codex/skills/</code> に展開します。ターミナルなら次の1行です</li>
+</ol>
+<pre><code class="language-bash">unzip ~/Downloads/ai-employee-creator.zip -d ~/.codex/skills/
+</code></pre>
+<ol start="2">
+<li>Codex を開き直して、新しいセッションで「AI社員を作りたい」と話しかけます</li>
+</ol>
+<p>Codex でも、検査・zip 作り・見比べページ作りの補助スクリプトを AI社員クリエイターが使います。呼ばれ方の測定だけは Claude Code 専用なので、Codex では数本の依頼で呼ばれるかを一緒に確かめます。</p>
 <h3 id="claudeai">claude.ai（ブラウザ・アプリ）を使っている場合</h3>
 <ol>
 <li>claude.ai の設定画面を開き、Skills の項目を探します</li>
@@ -159,7 +171,7 @@ footer.site p{margin:4px 0}
 <li>新しいチャットで「AI社員を作りたい」と話しかけます</li>
 </ol>
 <p>claude.ai では、コードを実行できる環境のときだけ補助スクリプトを使います。使えないときは、同じ確認を手順どおりに手で進めます。呼ばれ方の測定（何十回も試す作業）は Claude Code 専用なので、claude.ai では数本の依頼で呼ばれるかを一緒に確かめます。</p>
-<p>Skills が使えるプランや画面の名前は変わることがあります。見つからないときは、Claude の公式ヘルプで「Skills」を検索してください。</p>
+<p>Skills が使えるプランや画面の名前は変わることがあります。見つからないときは、使っているツールの公式ヘルプで「Skills」を検索してください。</p>
 <h3 id="1_1">1分の動作確認</h3>
 <p>「AI社員を作りたい。任せたいのはセミナー後のお礼メール」のように話しかけます。AI社員の方から質問が返ってくれば動いています。</p>
 <h2 id="8">進み方（8つの手順）</h2>
